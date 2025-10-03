@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkateMap – SkateLink</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="map.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">SkateLink</div>
+    <div class="tagline">Explore the UK skate scene</div>
+  </header>
+
+  <div class="map-wrapper">
+    <aside class="sidebar">
+      <h2>Filter Spots</h2>
+      <button onclick="showParks()">Skateparks</button>
+      <button onclick="showShops()">Skate Shops</button>
+      <button onclick="showAll()">Show All</button>
+    </aside>
+    <div id="map"></div>
+  </div>
+
+  <footer>
+    <a href="dashboard.html">← Back to Dashboard</a>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="map.js"></script>
+</body>
+</html>

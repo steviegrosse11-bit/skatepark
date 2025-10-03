@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Dashboard – SkateLink</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="dashboard.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">SkateLink</div>
+    <div class="tagline">Welcome back, shredder!</div>
+  </header>
+
+  <div class="dashboard-info">
+    <p>Explore skateparks, connect with crews, and discover shops across the UK.</p>
+    <p>You're on the free tier—upgrade to VIP anytime for exclusive perks.</p>
+  </div>
+
+  <div id="map"></div>
+
+  <div class="actions">
+    <a href="#"><button>Find a Crew</button></a>
+    <a href="#"><button>Rate a Park</button></a>
+    <a href="#"><button>Suggest a Spot</button></a>
+    <a href="#"><button>View Profile</button></a>
+    <a href="map.html"><button>Go to Map</button></a>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>
